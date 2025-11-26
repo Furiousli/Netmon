@@ -1,0 +1,52 @@
+name: Feature Request
+description: Suggest an idea for Netmon
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the feature suggestion! Help us understand your idea.
+
+  - type: checkboxes
+    attributes:
+      label: Is there an existing feature request for this?
+      description: Please search to see if a feature request already exists.
+      options:
+        - label: I have searched existing feature requests
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Motivation
+      description: Why would you like this feature? What problem does it solve?
+      placeholder: I want this feature because...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution
+      placeholder: The solution would be...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternative Approaches
+      description: Any alternative solutions or features you've considered?
+
+  - type: textarea
+    attributes:
+      label: Use Cases
+      description: Real-world use cases for this feature
+      placeholder: |
+        - Use case 1
+        - Use case 2
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any other context or screenshots
