@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "colors": {
+    "primary": {
+      "value": "#00bfd3",
+      "description": "Main cyan accent color for CTAs and highlights"
+    },
+    "secondary": {
+      "value": "#1f2937",
+      "description": "Dark gray for secondary elements"
+    },
+    "background": {
+      "base": "#0f172a",
+      "surface": "#1e293b",
+      "card": "#1f2937",
+      "description": "Background color palette"
+    },
+    "semantic": {
+      "success": "#10b981",
+      "warning": "#f59e0b",
+      "danger": "#ef4444",
+      "info": "#3b82f6"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#d1d5db",
+      "muted": "#9ca3af"
+    },
+    "border": "#334155"
+  },
+  "typography": {
+    "fontFamily": {
+      "base": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif"
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "lineHeight": {
+      "tight": 1.25,
+      "normal": 1.5,
+      "relaxed": 1.625
+    }
+  },
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "2.5rem",
+    "3xl": "3rem"
+  },
+  "borderRadius": {
+    "sm": "0.375rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+    "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1)"
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "background": "#00bfd3",
+        "foreground": "#0f172a",
+        "padding": "0.75rem 1.5rem",
+        "borderRadius": "0.375rem",
+        "fontWeight": 500,
+        "transition": "all 0.3s"
+      },
+      "secondary": {
+        "background": "#334155",
+        "foreground": "#ffffff",
+        "padding": "0.75rem 1.5rem",
+        "borderRadius": "0.375rem"
+      }
+    },
+    "card": {
+      "background": "#1e293b",
+      "border": "1px solid #334155",
+      "borderRadius": "0.5rem",
+      "padding": "1.5rem"
+    },
+    "kpiCard": {
+      "background": "linear-gradient(135deg, #1e293b 0%, #1a2332 100%)",
+      "border": "1px solid #334155",
+      "borderRadius": "0.75rem",
+      "padding": "1.5rem"
+    },
+    "badge": {
+      "padding": "0.25rem 0.75rem",
+      "borderRadius": "9999px",
+      "fontSize": "0.875rem",
+      "fontWeight": 600
+    }
+  }
+}
